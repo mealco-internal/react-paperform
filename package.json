@@ -1,0 +1,41 @@
+{
+  "name": "react-paperform-co",
+  "version": "1.0.0",
+  "description": "Paperform.co components for react with types",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "prepack": "yarn build",
+    "build": "rm -rf lib && rollup -c",
+    "docs": "documentation readme ./src/index.ts --section API --parse-extension=ts --require-extension=.ts "
+  },
+  "keywords": [
+    "react",
+    "paperform",
+    "paperform.co"
+  ],
+  "author": "Gennady Seden <mrutaf@gmail.com>",
+  "repository": "mealco-internal/react-paperform-co",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.kebabcase": "^4.1.1"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/lodash.kebabcase": "^4.1.7",
+    "@types/react": "^18.0.28",
+    "documentation": "^14.0.1",
+    "react": "^18.2.0",
+    "rollup": "^3.15.0"
+  }
+}
