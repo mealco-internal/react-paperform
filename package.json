@@ -1,6 +1,6 @@
 {
   "name": "react-paperform-co",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Paperform.co components for react with types",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -18,8 +18,8 @@
     "paperform",
     "paperform.co"
   ],
-  "author": "Gennady Seden <mrutaf@gmail.com>",
-  "repository": "mealco-internal/react-paperform-co",
+  "author": "Utyfua <utyfua@gmail.com>",
+  "repository": "utyfua/react-paperform-co",
   "license": "ISC",
   "dependencies": {
     "lodash.kebabcase": "^4.1.1"

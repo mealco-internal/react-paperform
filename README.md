@@ -1,4 +1,4 @@
-# react-paperform
+# react-paperform-co
 
 [![npm version](https://badge.fury.io/js/react-paperform-co.svg)](https://badge.fury.io/js/react-paperform-co)
 
